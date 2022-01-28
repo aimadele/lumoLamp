@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;700&family=Neucha&display=swap');
+
+*{
+    font-family: 'Comfortaa', 'cursive';
+    color: white;
+}
+
+body{
+    background-image: url(../img/черный\ фон.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.up{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar a{
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+.navbar a:hover{
+color: lightsalmon;
+}
+footer p{
+    text-align: center;
+}
+.social{
+    display: flex;
+    justify-content: center;
+}
+.vk{
+    margin-right: 20px;
+}
+.product-item{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.product-item img{
+    max-width: 400px;
+    margin: 15px;
+    border-radius: 30px;
+}
+.product-item h4{
+    text-align: center;
+    font-weight: 300;
+}
+.product-item p{
+    text-align: center;
+}
+.btnn{
+   margin-left: 170px;
+   background-color:#C0C0C0;
+   color: black;
+   border: black 1px;
+   border-radius: 15px;
+   min-width: 100px;
+   min-height: 50px;
+   font-weight: 300;
+   
+}
+header{
+    margin-bottom: 50px;
+}
+.lumo h1{
+    font-size: 100px;
+}
+.tov{
+    text-align: center;
+}

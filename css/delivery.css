@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;700&family=Neucha&display=swap');
+
+*{
+    font-family: 'Comfortaa', 'cursive';
+    color: white;
+}
+
+body{
+    background-image: url(../img/черный\ фон.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.up{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar a{
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+.navbar a:hover{
+color: lightsalmon;
+}
+.lumo h1{
+    font-size: 100px;
+}
+.delivery-div{
+    display: flex;
+    justify-content:space-around ;
+    margin-top: 50px;
+}
+.delivery-img-1{
+    max-width: 500px;
+    border-radius: 40px;
+}
+header{
+    margin-bottom: 50px;
+}
+.delivery-text{
+    padding-right: 20px;
+    text-align: justify;
+}
+h2{
+    text-align: center;
+}
+footer p{
+    text-align: center;
+}
+.social{
+    display: flex;
+    justify-content: center;
+}
+.vk{
+    margin-right: 20px;
+}
+footer{
+    margin-top: 60px;
+}
+hr{
+    color: white;
+}
+
+
+

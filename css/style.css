@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;700&family=Neucha&display=swap');
+
+*{
+    font-family: 'Comfortaa', 'cursive';
+    color: black;
+} 
+body{
+    background-image: url(../img/фон\ лампа.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.up{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar a{
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+    background-color: black;
+    
+    border-radius: 20px;
+    margin: 10px;
+}
+.navbar a:hover{
+color: lightsalmon;
+}
+.about-img{
+    max-width: 500px;
+    border-radius: 10px;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+}
+.about-text-p{ 
+    text-align: justify;
+    
+    color: white;
+}
+.about-text{
+    padding: 20px;
+    background-color: black;
+    margin: 20px;
+    opacity: 70%;
+    border-radius: 20px;
+}
+.garant-div{
+    display: flex;
+    justify-content: space-around;
+}
+.garant-img-1{
+    max-width: 100px;
+    opacity: 80%;
+    margin-left: 130px;
+}
+.garant-img-2{   
+    max-width: 100px;   
+    opacity: 80%;  
+    margin-left: 180px;
+}
+.garant-img-3{   
+    max-width: 100px;   
+    opacity: 80%;  
+    margin-left: 100px;
+}
+.garant-up{
+    padding: 30px;
+}
+.garant-text{
+    text-align: center;
+}
+.garant-up h3{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+footer p{
+    text-align: center;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    color: white; 
+    margin-bottom: 40pxpx;   
+}
+.so-text{
+    color: white;
+    padding-top: 10px;
+}
+.vk{
+    margin-right: 20px;
+}
+.lumo h1{
+    font-size: 100px;
+}
+section{
+    margin-bottom: 30px;
+}
+.garant-text{
+    color: black;
+}
+.so{
+    background-color: black;
+    opacity: 70%;
+    border-radius: 10px;
+}
